@@ -13,3 +13,26 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font:  Helvetica, sans-serif;
+  background-color: red;
+}
+
+.img-container {
+	background-color: blue;
+	width: 600px;
+	height: 400px;
+	position: relative;
+}
+
+#main-image {
+	position: absolute;
+}
+
+.welcome-prose {
+	color: #FFFFFF;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
