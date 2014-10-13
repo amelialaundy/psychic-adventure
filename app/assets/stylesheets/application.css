@@ -17,30 +17,44 @@
 body {
   font:  Helvetica, sans-serif;
   background-color: red;
+  font-size: 40px;
 }
 
-.img-container {
-	background-color: blue;
-	width: 600px;
-	height: 400px;
-	position: relative;
+h2 {
+	font-size: 16px;
 }
 
 #main-image {
 	position: absolute;
+	margin-left: auto;
+  margin-right: auto;
 }
 
-.welcome-prose {
+.text {
 	color: #FFFFFF;
 	position: absolute;
 	top: 0;
-	left: 0;
+	/*left: 0;*/
+	padding: 20px 20px 20px 20px;
 }
 
 #magazine{
-    width: 800px;
-    height: 400px;
+  width: 1000px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 #magazine .turn-page{
-    background-color:#ccc;
+  background-color:#ccc;
+}
+
+#footer {
+	margin-left: 15%;
+	margin-right: 15%;
+
+}
+
+footer {
+	margin: 50px 50px 50px 50px;
 }
