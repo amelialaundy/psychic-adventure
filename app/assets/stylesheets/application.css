@@ -36,3 +36,11 @@ body {
 	top: 0;
 	left: 0;
 }
+
+#magazine{
+    width: 800px;
+    height: 400px;
+}
+#magazine .turn-page{
+    background-color:#ccc;
+}

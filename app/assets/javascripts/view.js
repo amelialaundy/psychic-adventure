@@ -1,10 +1,12 @@
 function View () {
   this.mainImage = $('#main-image');
   self = this;
+   $('#magazine').turn({gradients: true, acceleration: true});
 }
 
 View.prototype = {
-  editImage: function () {
-    self.mainImage.css('display', 'none')
+  nextImage: function () {
+    // self.mainImage.css('display', 'none')
+    $('#magazine').turn({gradients: true, acceleration: true});
   }
 }

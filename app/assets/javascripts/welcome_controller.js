@@ -9,6 +9,6 @@ WelcomeController.prototype = {
   },
 
   bindEvents: function () {
-    this.view.mainImage.on('click', this.view.editImage);
+    this.view.mainImage.on('click', this.view.nextImage);
   }
 }
