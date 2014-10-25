@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PsychicAdventure</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application' %> 
+  <%= csrf_meta_tags %>
+
+  <link href='http://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+<%= yield %>
+
+<footer>
+  <h2>
+    <span id='footer'>
+      Created By: <a href='https://twitter.com/amelialaundy'>Amelia Laundy</a>
+    </span>
+
+    <span id='footer'>
+      Follow Rob's journey <a href='http://robcandy.tumblr.com/'>here</a>
+    </span>
+  </h2>
+</footer>
+</body>
+</html>
